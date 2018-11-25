@@ -1,0 +1,1 @@
+GRPlugin.dll will not be included. The latest version / beta version can be found on the vatsim scandinavia fourms.
