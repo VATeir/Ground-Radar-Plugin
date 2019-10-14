@@ -1,4 +1,4 @@
-[EIDW]
+
 Equip_ProMode=1
 AppLabel_AFL_VS=1
 AppLabel_GS=1
@@ -21,3 +21,4 @@ Color_Departure=255,255,64
 Color_Arrival=101,240,224
 System_RMCA_APP_Distance_LVP=2
 System_RMCA_APP_Distance_LVP_Info=2
+System_State_Push=PUSH
