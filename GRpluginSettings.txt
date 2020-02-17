@@ -1,15 +1,12 @@
 
-Equip_ProMode=1
+Equip_ProMode=0
 AppLabel_AFL_VS=1
 AppLabel_GS=1
 Window_APP_Rotation=355
 TowerLabel_AFL_VS=1
 TowerLabel_GS=1
-Window_Inbound_WTC=1
-Window_Inbound_ETA=1
 Window_APP_Scale=15
 Window_APP_Extensions=1
-Window_Stand_Items=20
 RawVideo=0
 GroundLabel=1
 GroundLabel_ATYP=1
