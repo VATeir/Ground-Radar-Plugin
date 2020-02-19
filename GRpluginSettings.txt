@@ -1,4 +1,3 @@
-
 Equip_ProMode=0
 AppLabel_AFL_VS=1
 AppLabel_GS=1
