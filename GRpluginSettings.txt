@@ -1,7 +1,7 @@
 Equip_ProMode=0
 Window_APP_Rotation=355
 Window_APP_Scale=15
-Window_APP_Extensions=5
+Window_APP_Extensions=10
 Window_APP_AltFilter=5000
 RawVideo=0
 GroundLabel=1
