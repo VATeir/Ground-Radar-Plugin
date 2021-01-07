@@ -1,8 +1,8 @@
 Equip_ProMode=0
-Window_APP_Rotation=355
+/Window_APP_Extensions=10
+Window_APP=1,1405,450,510,480
 Window_APP_Scale=15
-Window_APP_Extensions=10
-Window_APP_AltFilter=5000
+Window_APP_AltFilter=5500
 RawVideo_MaxHistory=3
 GroundLabel=1
 Label_AFL+VS=1,0,0
@@ -10,9 +10,34 @@ Label_GS=1,0,0
 Label_ATYP=1,1,0
 Label_WTC=1,1,0
 Label_DEP=0,1,0
-Label_DRWY=0,1,0
+/Label_DRWY=0,1,0
 Color_Departure=255,255,64
 Color_Arrival=101,240,224
-Color_Runway=210,210,210
+Color_Runway=0,0,0
 Color_RunwayExtension=80,80,80
-Window_APP=1,1550,400,350,350
+Color_Background=32,85,128
+
+/--------------------APP WINDOW TAG DEFINITION---------------------
+
+/-----APP Window Arrival Tag-----
+Label=APP:ARR:0:ALRT,0,0:ASSR_E,0,1,1
+Label=APP:ARR:1:CALLSIGN,0,0:ATYP,0,1:WTC,0,1:COMM,0,0,1
+Label=APP:ARR:2:AFL+VS,0,0,10:GS,0,0
+Label=APP:ARR:3:RMK,0,1
+
+/-----APP Window Departure Tag-----
+Label=APP:DEP:0:ALRT,0,0:ASSR_E,0,1,1
+Label=APP:DEP:1:CALLSIGN,0,0:ATYP,0,1:WTC,0,1:COMM,0,0,1
+Label=APP:DEP:2:AFL+VS,0,0,10:GS,0,0
+Label=APP:DEP:3:RMK,0,1
+
+/-----Ground Mode Departure Tag-----
+Label=GND:DEP:0:ALRT,0,0:ASSR_E,0,1,1
+Label=GND:DEP:1:CALLSIGN,0,0:ATYP,0,1:WTC,0,1:COMM,0,0,1
+Label=GND:DEP:2:DRWY,0,1:DEP,0,1
+Label=GND:DEP:3:RMK,0,1
+
+/-----Ground Mode Departure Tag-----
+Label=GND:ARR:0:ALRT,0,0:ASSR_E,0,1,1
+Label=GND:ARR:1:CALLSIGN,0,0:ATYP,0,1:WTC,0,1:COMM,0,0,1
+Label=GND:ARR:2:STAND,0,0:RMK,0,1
