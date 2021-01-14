@@ -1,5 +1,5 @@
 Equip_ProMode=0
-/Window_APP_Extensions=10
+Window_APP_Extensions=10
 Window_APP=1,1405,450,510,480
 Window_APP_Scale=15
 Window_APP_AltFilter=5500
@@ -14,7 +14,7 @@ Label_DEP=0,1,0
 Color_Departure=255,255,64
 Color_Arrival=101,240,224
 Color_Runway=0,0,0
-Color_RunwayExtension=80,80,80
+Color_RunwayExtension=220,220,220
 Color_Background=32,85,128
 
 /--------------------APP WINDOW TAG DEFINITION---------------------
